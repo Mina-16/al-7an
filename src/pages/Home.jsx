@@ -41,7 +41,7 @@ export default function Home() {
       {/* الهيدر */}
       <div className="bg-[#4A90E2] rounded-b-[90px] w-full h-[420px] pt-[24px] px-[20px] relative flex-shrink-0">
         <Human />
-        <div className="flex flex-col items-center gap-[9px] w-full border absolute top-[70px] left-0 right-0 px-[20px]">
+        <div className="flex flex-col items-center gap-[9px] w-full absolute top-[70px] left-0 right-0 px-[20px]">
           <img src="/images/boat.png" className="w-50 h-50 object-cover" />
           <h1 className="text-blue-500">سفينه التسبيح</h1>
         </div>
