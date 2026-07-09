@@ -14,7 +14,7 @@ const StoryCard = ({ id, title, description, img, reverse = false }) => {
       </div>
 
       <div className="flex flex-col items-end gap-2">
-      <h2 className="text-[20px] font-bold text-slate-800">{title}</h2>
+      <h2 className="text-[20px] font-bold text-black">{title}</h2>
 
 
       <p className="text-[10px] text-slate-600 leading-relaxed text-center">

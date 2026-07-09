@@ -3,7 +3,7 @@ import Icon from "./Icon/Icon";
 
 export default function BottomNav() {
   return (
-    <div className="absolute bottom-0 left-0 right-0 flex items-center w-full h-15 justify-between px-10 py-4 bg-white">
+    <div className="absolute bg-white bottom-0 left-0 right-0 flex items-center w-full h-15 justify-between px-10 py-4 ">
       <Link to="/" className="text-slate-700 active:scale-90 transition-transform">
       <Icon name="home"/>
       </Link>
